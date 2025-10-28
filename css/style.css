@@ -1,0 +1,30 @@
+.container-fluid {
+  box-shadow: 10px 20px 10px rgba(0, 0, 0, 0.2); }
+
+.navbar-brand img {
+  width: 200px !important; }
+
+.navbar {
+  background: #00d9ff !important; }
+  .navbar .nav-link {
+    color: #000000 !important;
+    font-size: 29px; }
+  .navbar .navbar-toggler {
+    background: #5088bd !important; }
+  .navbar .nav-item {
+    margin: 10px; }
+
+.footer {
+  padding: 20px;
+  background: #00d9ff;
+  color: #FFFF;
+  width: 100%; }
+
+.card {
+  margin-bottom: 10px;
+  box-shadow: 0 0 10px #000000; }
+
+.btn btn-dark {
+  width: 100px; }
+
+/*# sourceMappingURL=style.css.map */
