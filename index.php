@@ -4,10 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Celma Modas</title>
-    
+    <base href="http://localhost/WebModerna/CelmaModas/index.php">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="shorcut icon" href="imagens//borboletaL.png">
+    <link rel="shorcut icon" href="imagens/borboletaL.png">
+    <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
+
+
 </head>
 <body>
   
@@ -32,36 +35,37 @@
 
         <li class="nav-item">
          
-              <a class="nav-link" href="vestidos">
-                Vestidos
+              <a class="nav-link" href="home.php">
+                Home <i class="bi bi-house-door-fill"></i>
               </a>
          
         </li>
 
         <li class="nav-item">
          
-              <a class="nav-link" href="camisas">
-                Camisas 
+              <a class="nav-link" href="Roupas.php">
+                Roupas <i class="bi bi-tags-fill"></i>
               </a>
          
         </li>
 
+
         <li class="nav-item">
          
-              <a class="nav-link" href="Quemsomos">
-                Quem somos
+              <a class="nav-link" href="Quemsomos.php">
+                Quem somos <i class="bi bi-flag-fill"></i>
               </a>
           
         </li>
 
         <li class="nav-item">
          
-              <a class="nav-link" href="Entreemcontato">
-                Entre em contato
+              <a class="nav-link" href="Entreemcontato.php">  
+               Entre em contato <i class="bi bi-chat-left-dots-fill"></i> 
               </a>
          
         </li>
-
+      
         
         
       </ul>
@@ -75,7 +79,7 @@
 
  <main>
          <?php
-              if(isset($_GET["param"])){
+             if(isset($_GET["param"])){
                 $p = explode("/", $_GET["param"]);
               }
               $page =$p[0] ?? "home";
@@ -86,10 +90,13 @@
             include $pagina;
           } else {
             include "paginas/erro.php";
-          }
-          ?>
+          } 
+        ?>
 
-
+<i class="bi bi-0-circle"></i>
+<i class="bi bi-2-square-fill"></i>
+<i class="bi bi-facebook"></i>
+<i class="bi bi-whatsapp"></i>
 
     </main>
     <footer class="footer">

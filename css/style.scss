@@ -1,5 +1,6 @@
 $primary:#00d9ff;
-
+$secundo:#fff;
+$terceiro:#000000;
 
 .container-fluid {
     box-shadow: 10px 20px 10px rgba(0, 0, 0, 0.2);
@@ -18,17 +19,19 @@ $primary:#00d9ff;
         color: #000000 !important;
         font-size: 29px;
        
+       
     }
     & .navbar-toggler {
         background: #5088bd !important;
     }
     & .nav-item {
         margin: 10px;
+
+       
+        
+  
     }
-   
-
 }
-
 
 .footer {
     padding: 20px;
