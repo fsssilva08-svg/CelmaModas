@@ -1,7 +1,10 @@
 $primary:#00d9ff;
 $secundo:#fff;
 $terceiro:#000000;
-
+$quarto:rgb(189, 7, 7);
+body {
+    background: #6e6a6e;
+}
 .container-fluid {
     box-shadow: 10px 20px 10px rgba(0, 0, 0, 0.2);
 }
@@ -20,12 +23,15 @@ $terceiro:#000000;
         font-size: 29px;
        
        
+       
     }
     & .navbar-toggler {
         background: #5088bd !important;
     }
     & .nav-item {
         margin: 10px;
+         margin-bottom: 1px solid $terceiro;
+         border: 1px solid $quarto;
 
        
         
@@ -37,12 +43,57 @@ $terceiro:#000000;
     padding: 20px;
     background: $primary;
     color: #FFFF;
-    width: 100%;
+    width: 100%; 
+     
+    & a {
+        text-align: center;
+        color: $terceiro;
+        margin: 10px;
+        padding: 10px;
+         & :hover  {
+            color:#e40e0e;
+        }
+
+    }
 }
-.card {
+
+
+
+.card-group {
+    margin: 10px !important;
+    gap: 20px !important;
+    display: flex;
+  flex-direction: column; /* empilha os cards */
+  gap: 20px; /* espaço entre eles */
+    .card {
     margin-bottom: 10px;
     box-shadow: 0 0 10px #000000;
+    margin: 0 10px; /* Espaço horizontal entre os cards */
+
+
+    & .card-body {
+        margin: 10px;
+    }
 }
+}
+
 .btn btn-dark {
     width: 100px;
+}
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    & &-coluna {
+        width: 98%;
+        border: 1px solid $terceiro;
+        border-radius: 10px;
+        margin-bottom: 10px;
+        img {
+            border-radius: 10px;
+            width: 100%;
+        }
+    }
+} 
+@media (min-width: 480px) and (max-width: 1920px) {
+    
 }

@@ -35,7 +35,7 @@
 
         <li class="nav-item">
          
-              <a class="nav-link" href="home.php">
+              <a class="nav-link" href="home">
                 Home <i class="bi bi-house-door-fill"></i>
               </a>
          
@@ -43,7 +43,7 @@
 
         <li class="nav-item">
          
-              <a class="nav-link" href="Roupas.php">
+              <a class="nav-link" href="Roupas">
                 Roupas <i class="bi bi-tags-fill"></i>
               </a>
          
@@ -52,7 +52,7 @@
 
         <li class="nav-item">
          
-              <a class="nav-link" href="Quemsomos.php">
+              <a class="nav-link" href="Quemsomos">
                 Quem somos <i class="bi bi-flag-fill"></i>
               </a>
           
@@ -60,7 +60,7 @@
 
         <li class="nav-item">
          
-              <a class="nav-link" href="Entreemcontato.php">  
+              <a class="nav-link" href="Entreemcontato">  
                Entre em contato <i class="bi bi-chat-left-dots-fill"></i> 
               </a>
          
@@ -93,16 +93,31 @@
           } 
         ?>
 
-<i class="bi bi-0-circle"></i>
-<i class="bi bi-2-square-fill"></i>
-<i class="bi bi-facebook"></i>
-<i class="bi bi-whatsapp"></i>
 
     </main>
     <footer class="footer">
-       <p class="text-center">
-         Desenvolvido por felipe
+
+    <h2 class="text-center">Celma Modas</h2>
+        <p class="text-center" width="15px" > <!--texo -->
+                <a href="https://facebook.com" title="facebook"> <!--link do facebook -->
+                   <i class="bi bi-facebook"></i><!--icone do facebook -->
+                </a>
+            
+            
+                <a href="https://instagram.com" title="instagram"><!--link do instagram -->
+                    <i class="bi bi-instagram"></i> <!--icone do instagram -->
+                </a>    
+            
+            
+                <a href="#" title="Whatsapp"><!--link do twitter -->
+                    <i class="bi bi-whatsapp"></i><!--icone do twitter -->
+                </a>
+
+                 <a href="#"  title="Localização"> 
+                  <i class="bi bi-geo-alt-fill"></i>
+                </a>
         </p>
+
       </footer>
 <script src="js/bootstrap.bundle.min.js"></script>
 <script sec="js/fslightbox.js"></script>
