@@ -12,13 +12,13 @@ body {
   background: #00d9ff !important; }
   .navbar .nav-link {
     color: #000000 !important;
-    font-size: 29px; }
+    font-size: 29px;
+    margin-bottom: none; }
   .navbar .navbar-toggler {
     background: #5088bd !important; }
   .navbar .nav-item {
     margin: 10px;
-    margin-bottom: 1px solid #000000;
-    border: 1px solid #bd0707; }
+    margin-bottom: none; }
 
 .footer {
   padding: 20px;
@@ -63,5 +63,107 @@ body {
     .flex .flex-coluna img {
       border-radius: 10px;
       width: 100%; }
+
+.banner {
+  margin: 10px; }
+  .banner img {
+    border-radius: 10px;
+    width: 100%; }
+
+.flex {
+  display: flex;
+  flex-wrap: wrap; }
+  .flex .flex-coluna {
+    width: 98%;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    margin-bottom: 10px; }
+    .flex .flex-coluna img {
+      border-radius: 10px;
+      width: 10%; }
+
+.containerr {
+  width: 90%;
+  margin: 30px auto; }
+
+h2 {
+  color: #000000;
+  text-align: center; }
+
+.center {
+  text-align: center; }
+
+.flex {
+  display: flex;
+  align-items: center;
+  /* alinha verticalmente */
+  justify-content: center;
+  /* centraliza na horizontal (opcional) */
+  gap: 20px;
+  /* espaço entre imagem e texto */ }
+
+.flex-game-imagem img {
+  width: 200px;
+  /* ajuste conforme quiser */
+  height: auto;
+  border-radius: 10px;
+  /* opcional, só pra estética */ }
+
+.flex-descricao {
+  max-width: 400px;
+  /* limite de largura pro texto */
+  font-size: 20px;
+  color: #000000; }
+
+.faixa-1 {
+  background-color: #ff6f61;
+  /* cor da faixa 1 */
+  padding: 60px 0; }
+  .faixa-1 p {
+    font-size: 20px; }
+
+.faixa-2 {
+  background-color: #4a90e2;
+  /* cor da faixa 2 */
+  padding: 60px 0; }
+  .faixa-2 p {
+    font-size: 20px; }
+  .faixa-2 a {
+    text-decoration: none;
+    color: #fff; }
+
+.faixa-3 {
+  background: #f3e73b;
+  padding: 60px 0; }
+  .faixa-3 p {
+    font-size: 20px; }
+  .faixa-3 a {
+    text-decoration: none;
+    color: #fff; }
+
+.faixa-4 {
+  background: #00ff00;
+  padding: 60px 0; }
+  .faixa-4 p {
+    font-size: 20px; }
+  .faixa-4 a {
+    text-decoration: none;
+    color: #fff; }
+
+@media (min-width: 480px) and (max-width: 1920px) {
+  .navbar .nav-item {
+    margin-bottom: 1px solid #000000; }
+
+  .flex {
+    flex-direction: column;
+    /* empilha imagem e texto no celular */
+    text-align: center; }
+
+  .flex-game-imagem img {
+    width: 70%;
+    /* imagem um pouco menor em telas pequenas */ }
+
+  .flex-descricao {
+    max-width: 90%; } }
 
 /*# sourceMappingURL=style.css.map */

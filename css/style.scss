@@ -2,8 +2,14 @@ $primary:#00d9ff;
 $secundo:#fff;
 $terceiro:#000000;
 $quarto:rgb(189, 7, 7);
+$cinco:#00ff00;
+$seis: #6e6a6e;
+$sete:#ff6f61;
+$oito:#f3e73b;
+$nove:#4a90e2;
+
 body {
-    background: #6e6a6e;
+    background: $seis;
 }
 .container-fluid {
     box-shadow: 10px 20px 10px rgba(0, 0, 0, 0.2);
@@ -21,21 +27,14 @@ body {
     & .nav-link {
         color: #000000 !important;
         font-size: 29px;
-       
-       
-       
+        margin-bottom: none;   
     }
     & .navbar-toggler {
         background: #5088bd !important;
     }
     & .nav-item {
         margin: 10px;
-         margin-bottom: 1px solid $terceiro;
-         border: 1px solid $quarto;
-
-       
-        
-  
+       margin-bottom: none;
     }
 }
 
@@ -63,8 +62,8 @@ body {
     margin: 10px !important;
     gap: 20px !important;
     display: flex;
-  flex-direction: column; /* empilha os cards */
-  gap: 20px; /* espaço entre eles */
+    flex-direction: column; /* empilha os cards */
+    gap: 20px; /* espaço entre eles */
     .card {
     margin-bottom: 10px;
     box-shadow: 0 0 10px #000000;
@@ -94,6 +93,116 @@ body {
         }
     }
 } 
+
+.banner {
+    margin: 10px;
+    img {
+        border-radius: 10px;
+        width: 100%;
+    }
+}
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    & &-coluna {
+        width: 98%;
+        border: 1px solid $terceiro;
+        border-radius: 10px;
+        margin-bottom: 10px;
+        img {
+            border-radius: 10px;
+            width: 10%;
+        }
+    }
+}
+.containerr {
+    width: 90%;
+    margin: 30px auto;
+}
+h2 {
+    color: $terceiro;
+    text-align: center;
+}
+.center {
+    text-align: center;
+}
+.flex {
+  display: flex;
+  align-items: center; /* alinha verticalmente */
+  justify-content: center; /* centraliza na horizontal (opcional) */
+  gap: 20px; /* espaço entre imagem e texto */
+}
+
+.flex-game-imagem img {
+  width: 200px; /* ajuste conforme quiser */
+  height: auto;
+  border-radius: 10px; /* opcional, só pra estética */
+}
+
+.flex-descricao {
+  max-width: 400px; /* limite de largura pro texto */
+  font-size: 20px;
+  color: $terceiro;
+}
+
+
+.faixa-1 {
+  background-color:$sete; /* cor da faixa 1 */
+   padding: 60px 0;
+   p {
+    font-size: 20px;
+   }
+}
+
+.faixa-2 {
+  background-color: $nove; /* cor da faixa 2 */
+   padding: 60px 0;
+      p {
+    font-size: 20px;
+   }
+   & a {
+    text-decoration: none;
+    color:$secundo;
+   }
+}
+.faixa-3 {
+    background:$oito ;
+     padding: 60px 0;
+       p {
+    font-size: 20px;
+      }
+      & a {
+    text-decoration: none;
+    color:$secundo;
+   }
+}
+.faixa-4{
+    background:$cinco;
+     padding: 60px 0;
+       p {
+    font-size: 20px;
+      }
+      & a {
+    text-decoration: none;
+    color:$secundo;
+   }
+}
+
 @media (min-width: 480px) and (max-width: 1920px) {
-    
+     .navbar {
+
+        & .nav-item {
+            margin-bottom: 1px solid $terceiro; 
+        }
+}
+        .flex {
+    flex-direction: column; /* empilha imagem e texto no celular */
+    text-align: center;
+  }
+  .flex-game-imagem img {
+    width: 70%; /* imagem um pouco menor em telas pequenas */
+  }
+  .flex-descricao {
+    max-width: 90%;
+  }
 }

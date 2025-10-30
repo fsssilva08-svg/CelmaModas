@@ -6,7 +6,7 @@
 
       <div class="col-12 col-md-6 col-lg-4">
         <div class="card h-100 shadow-sm">
-          <img src="imagens/vestido.jpg" class="card-img-top" alt="Roupas Femininas">
+          <img src="imagens/vestidoAZUL.jpg" class="card-img-top" alt="Roupas Femininas">
           <div class="card-body  text-center" >
             <h5 class="card-title" >Coleção Feminina</h5>
             <p class="text-center">Descubra as últimas tendências da moda feminina com muito estilo e conforto.</p>
