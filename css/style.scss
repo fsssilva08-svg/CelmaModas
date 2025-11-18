@@ -8,8 +8,13 @@ $sete:#ff6f61;
 $oito:#f3e73b;
 $nove:#4a90e2;
 
+* {
+  max-width: 100%;
+}
+
 body {
     background: $seis;
+     box-sizing: border-box;
 }
 .container-fluid {
     box-shadow: 10px 20px 10px rgba(0, 0, 0, 0.2);
@@ -131,6 +136,7 @@ h2 {
   align-items: center; /* alinha verticalmente */
   justify-content: center; /* centraliza na horizontal (opcional) */
   gap: 20px; /* espaço entre imagem e texto */
+
 }
 
 .flex-game-imagem img {
@@ -149,6 +155,8 @@ h2 {
 .faixa-1 {
   background-color:$sete; /* cor da faixa 1 */
    padding: 60px 0;
+    box-sizing: border-box;
+    width: 100%;
    p {
     font-size: 20px;
    }
@@ -157,6 +165,7 @@ h2 {
 .faixa-2 {
   background-color: $nove; /* cor da faixa 2 */
    padding: 60px 0;
+    box-sizing: border-box;
       p {
     font-size: 20px;
    }
@@ -168,6 +177,7 @@ h2 {
 .faixa-3 {
     background:$oito ;
      padding: 60px 0;
+      box-sizing: border-box;
        p {
     font-size: 20px;
       }
@@ -179,6 +189,7 @@ h2 {
 .faixa-4{
     background:$cinco;
      padding: 60px 0;
+      box-sizing: border-box;
        p {
     font-size: 20px;
       }

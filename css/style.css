@@ -1,6 +1,10 @@
 @charset "UTF-8";
+* {
+  max-width: 100%; }
+
 body {
-  background: #6e6a6e; }
+  background: #6e6a6e;
+  box-sizing: border-box; }
 
 .container-fluid {
   box-shadow: 10px 20px 10px rgba(0, 0, 0, 0.2); }
@@ -118,14 +122,17 @@ h2 {
 .faixa-1 {
   background-color: #ff6f61;
   /* cor da faixa 1 */
-  padding: 60px 0; }
+  padding: 60px 0;
+  box-sizing: border-box;
+  width: 100%; }
   .faixa-1 p {
     font-size: 20px; }
 
 .faixa-2 {
   background-color: #4a90e2;
   /* cor da faixa 2 */
-  padding: 60px 0; }
+  padding: 60px 0;
+  box-sizing: border-box; }
   .faixa-2 p {
     font-size: 20px; }
   .faixa-2 a {
@@ -134,7 +141,8 @@ h2 {
 
 .faixa-3 {
   background: #f3e73b;
-  padding: 60px 0; }
+  padding: 60px 0;
+  box-sizing: border-box; }
   .faixa-3 p {
     font-size: 20px; }
   .faixa-3 a {
@@ -143,7 +151,8 @@ h2 {
 
 .faixa-4 {
   background: #00ff00;
-  padding: 60px 0; }
+  padding: 60px 0;
+  box-sizing: border-box; }
   .faixa-4 p {
     font-size: 20px; }
   .faixa-4 a {

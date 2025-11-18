@@ -12,6 +12,7 @@
 </section>
 
 <section class="faixa-2">
+    <div class="row g-4">
     <div class="container text-center">
          <h2>Roupas</h2>
              <p>Conheça nossas roupas e estilos.</p>
@@ -35,7 +36,7 @@
     </div>
 </section>
 
-</section>
+
 <section class="faixa-4">
     <div class="container text-center">
          <h2>Entre em contato</h2>
