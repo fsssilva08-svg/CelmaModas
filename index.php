@@ -60,7 +60,7 @@
 
         <li class="nav-item">
          
-              <a class="nav-link" href="Entreemcontato">  
+              <a class="nav-link" href="formulario">  
                Entre em contato <i class="bi bi-chat-left-dots-fill"></i> 
               </a>
          
@@ -121,5 +121,7 @@
       </footer>
 <script src="js/bootstrap.bundle.min.js"></script>
 <script sec="js/fslightbox.js"></script>
+
+
 </body>
 </html>

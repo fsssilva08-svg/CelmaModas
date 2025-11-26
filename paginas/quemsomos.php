@@ -1,4 +1,4 @@
-<h2 class="text-center">Quem somos</h2>
+<h3 class="text-center">Quem somos</h3>
 
 <div class="containerr">
   <div class="flex">

@@ -13,7 +13,7 @@
           </div>
           <div class="card-footer text-body-secondary">
                 <p class="text-center">
-                    <a href="#" title="#" class="btn btn-primary">
+                    <a href="a" title="ver mais" class="btn btn-primary">
                            <i class="bi bi-search"></i> Ver mais 
                     </a>
                  </p>
@@ -35,7 +35,7 @@
           </div>
           <div class="card-footer text-body-secondary">
             <p class="text-center">
-                    <a href="#" title="#" class="btn btn-primary">
+                    <a href="a" title="ver mais" class="btn btn-primary">
                            <i class="bi bi-search"></i> Ver mais 
                     </a>
                  </p>
@@ -57,7 +57,7 @@
           </div>
           <div class="card-footer text-body-secondary">
                  <p class="text-center">
-                    <a href="#" title="#" class="btn btn-primary">
+                    <a href="a" title="ver mais" class="btn btn-primary">
                            <i class="bi bi-search"></i> Ver mais 
                     </a>
                  </p>
@@ -79,7 +79,7 @@
           </div>
           <div class="card-footer text-body-secondary">
                  <p class="text-center">
-                    <a href="#" title="#" class="btn btn-primary">
+                    <a href="a" title="ver mais" class="btn btn-primary">
                            <i class="bi bi-search"></i> Ver mais 
                     </a>
                  </p>
@@ -100,7 +100,7 @@
           </div>
           <div class="card-footer text-body-secondary">
                  <p class="text-center">
-                    <a href="#" title="#" class="btn btn-primary">
+                    <a href="a" title="ver mais" class="btn btn-primary">
                            <i class="bi bi-search"></i> Ver mais 
                     </a>
                  </p>
@@ -122,7 +122,7 @@
           </div>
           <div class="card-footer text-body-secondary">
              <p class="text-center">
-                    <a href="#" title="#" class="btn btn-primary">
+                    <a href="a" title="ver mais" class="btn btn-primary">
                            <i class="bi bi-search"></i> Ver mais 
                     </a>
                  </p>
@@ -143,7 +143,7 @@
           </div>
           <div class="card-footer text-body-secondary">
              <p class="text-center">
-                    <a href="#" title="#" class="btn btn-primary">
+                    <a href="a" title="ver mais" class="btn btn-primary">
                            <i class="bi bi-search"></i> Ver mais 
                     </a>
                  </p>
@@ -164,7 +164,7 @@
           </div>
           <div class="card-footer text-body-secondary">
              <p class="text-center">
-                    <a href="#" title="#" class="btn btn-primary">
+                    <a href="a" title="ver mais" class="btn btn-primary">
                            <i class="bi bi-search"></i> Ver mais 
                     </a>
                  </p>
@@ -185,7 +185,7 @@
           </div>
           <div class="card-footer text-body-secondary">
              <p class="text-center">
-                    <a href="#" title="#" class="btn btn-primary">
+                    <a href="a" title="ver mais" class="btn btn-primary">
                            <i class="bi bi-search"></i> Ver mais 
                     </a>
                  </p>

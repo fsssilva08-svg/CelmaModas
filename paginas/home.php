@@ -110,7 +110,7 @@
          <h2>Entre em contato</h2>
              <p>Ficou com alguma duvida? Entre em contato por aqui!.</p>
                 <button type="button" class="btn btn-primary">
-                    <a href="#">
+                    <a href="formulario">
                         <i class="bi bi-search"></i> Saiba Mais
                     </a>
                 </button>
