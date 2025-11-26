@@ -1,4 +1,4 @@
-<div class="container py-5">
+<div class="container py-5" style="width:80%">
 
     <h2 class="text-center mb-4 text-white">Coleções Celma Modas</h2>
 
@@ -118,6 +118,69 @@
           <img src="imagens/colar.jpg" class="card-img-top" alt="Acessórios">
           <div class="card-body  text-center">
             <h5 class="card-title">acessórios</h5>
+            <p class="card-text">Complete seu look com os acessórios mais lindos da nova coleção.</p>
+          </div>
+          <div class="card-footer text-body-secondary">
+             <p class="text-center">
+                    <a href="#" title="#" class="btn btn-primary">
+                           <i class="bi bi-search"></i> Ver mais 
+                    </a>
+                 </p>
+                 <p class="text-center">
+                    <a href="home" title="Pagina Inicial" class="btn btn-primary">
+                       <i class="bi bi-house-door-fill"></i> voltar o inicio 
+                    </a>
+                </p>
+          </div>
+        </div>
+      </div>
+       <div class="col-12 col-md-6 col-lg-4">
+        <div class="card h-100 shadow-sm">
+          <img src="imagens/Roupao.jpg" class="card-img-top" alt="Acessórios">
+          <div class="card-body  text-center">
+            <h5 class="card-title">Paletó</h5>
+            <p class="card-text">Complete seu look com os acessórios mais lindos da nova coleção.</p>
+          </div>
+          <div class="card-footer text-body-secondary">
+             <p class="text-center">
+                    <a href="#" title="#" class="btn btn-primary">
+                           <i class="bi bi-search"></i> Ver mais 
+                    </a>
+                 </p>
+                 <p class="text-center">
+                    <a href="home" title="Pagina Inicial" class="btn btn-primary">
+                       <i class="bi bi-house-door-fill"></i> voltar o inicio 
+                    </a>
+                </p>
+          </div>
+        </div>
+      </div>
+       <div class="col-12 col-md-6 col-lg-4">
+        <div class="card h-100 shadow-sm">
+          <img src="imagens/vestidoBR.jpg" class="card-img-top" alt="Acessórios">
+          <div class="card-body  text-center">
+            <h5 class="card-title">Vestidos Curtos</h5>
+            <p class="card-text">Complete seu look com os acessórios mais lindos da nova coleção.</p>
+          </div>
+          <div class="card-footer text-body-secondary">
+             <p class="text-center">
+                    <a href="#" title="#" class="btn btn-primary">
+                           <i class="bi bi-search"></i> Ver mais 
+                    </a>
+                 </p>
+                 <p class="text-center">
+                    <a href="home" title="Pagina Inicial" class="btn btn-primary">
+                       <i class="bi bi-house-door-fill"></i> voltar o inicio 
+                    </a>
+                </p>
+          </div>
+        </div>
+      </div>
+       <div class="col-12 col-md-6 col-lg-4">
+        <div class="card h-100 shadow-sm">
+          <img src="imagens/vestido.jpg" class="card-img-top" alt="Acessórios">
+          <div class="card-body  text-center">
+            <h5 class="card-title">vestidos para festa</h5>
             <p class="card-text">Complete seu look com os acessórios mais lindos da nova coleção.</p>
           </div>
           <div class="card-footer text-body-secondary">

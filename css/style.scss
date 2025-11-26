@@ -3,7 +3,7 @@ $secundo:#fff;
 $terceiro:#000000;
 $quarto:rgb(189, 7, 7);
 $cinco:#00ff00;
-$seis: #6e6a6e;
+$seis: hsl(300, 4%, 25%);
 $sete:#ff6f61;
 $oito:#f3e73b;
 $nove:#4a90e2;
@@ -153,18 +153,22 @@ h2 {
 
 
 .faixa-1 {
-  background-color:$sete; /* cor da faixa 1 */
-   padding: 60px 0;
+  background-color:$seis; /* cor da faixa 1 */
+   padding: 40px 0;
     box-sizing: border-box;
     width: 100%;
+    h2 {
+        color: $secundo;
+    }
    p {
     font-size: 20px;
+    color: $secundo;
    }
 }
 
 .faixa-2 {
   background-color: $nove; /* cor da faixa 2 */
-   padding: 60px 0;
+   padding: 40px 0;
     box-sizing: border-box;
       p {
     font-size: 20px;
@@ -176,7 +180,7 @@ h2 {
 }
 .faixa-3 {
     background:$oito ;
-     padding: 60px 0;
+     padding: 40px 0;
       box-sizing: border-box;
        p {
     font-size: 20px;
@@ -188,7 +192,7 @@ h2 {
 }
 .faixa-4{
     background:$cinco;
-     padding: 60px 0;
+     padding: 40px 0;
       box-sizing: border-box;
        p {
     font-size: 20px;
@@ -198,6 +202,7 @@ h2 {
     color:$secundo;
    }
 }
+
 
 @media (min-width: 480px) and (max-width: 1920px) {
      .navbar {
