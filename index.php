@@ -121,7 +121,57 @@
       </footer>
 <script src="js/bootstrap.bundle.min.js"></script>
 <script sec="js/fslightbox.js"></script>
+<script>
+  const form = document.getElementById("formContato");
+const erro = document.getElementById("erro");
+const limpar = document.getElementById("limpar");
 
+form.addEventListener("submit", function (e) {
+  e.preventDefault(); 
+  let nome = document.getElementById("nome").value.trim();
+  let email = document.getElementById("email").value.trim();
+  let telefone = document.getElementById("telefone").value.trim();
+  let cidade = document.getElementById("cidade").value.trim();
+  let endereco = document.getElementById("endereco").value.trim();
+  let opiniao = document.getElementById("opiniao").value.trim();
+
+  if (nome === "") {
+    erro.textContent = "Por favor, digite seu nome.";
+    return;
+  }
+  if (email === "" || !email.includes("@")) {
+    erro.textContent = "Digite um e-mail válido.";
+    return;
+  }
+  if (telefone.length < 8) {
+    erro.textContent = "Digite um número de telefone válido.";
+    return;
+  }
+  if (cidade === "") {
+    erro.textContent = "Por favor, informe sua cidade.";
+    return;
+  }
+  if (endereco === "") {
+    erro.textContent = "Digite seu endereço.";
+    return;
+  }
+  if (opiniao.length < 5) {
+    erro.textContent = "Escreva pelo menos uma frase na sua opinião.";
+    return;
+  }
+
+  erro.textContent = "";
+  alert("Formulário enviado com sucesso! ");
+  form.reset();
+});
+
+
+limpar.addEventListener("click", function () {
+  form.reset();
+  erro.textContent = "";
+});
+
+</script>
 
 </body>
 </html>
