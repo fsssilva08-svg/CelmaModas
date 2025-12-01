@@ -29,7 +29,7 @@
       <div class="col-12 col-md-6 col-lg-4" >
         <div class="card h-100 shadow-sm" >
           <img src="imagens/camisa.png" class="card-img-top" alt="Roupas Masculinas">
-          <div class="card-body  text-center" data-aos="fade-up>
+          <div class="card-body  text-center" data-aos="fade-up">
             <h5 class="card-title">Coleção Masculina</h5>
             <p class="card-text">Peças modernas e versáteis para todos os estilos e ocasiões.</p>
           </div>

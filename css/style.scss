@@ -7,13 +7,14 @@ $seis: hsl(300, 4%, 25%);
 $sete:#ff6f61;
 $oito:#f3e73b;
 $nove:#4a90e2;
+$viunte:#ff106c;
 
 * {
   max-width: 100%;
 }
 
 body {
-    background: $seis;
+    background:$seis;
      box-sizing: border-box;
 }
 .container-fluid {
@@ -157,7 +158,7 @@ h2 {
 
 
 .faixa-1 {
-  background-color:$seis; /* cor da faixa 1 */
+  background-color:$cinco; /* cor da faixa 1 */
    padding: 40px 0;
     box-sizing: border-box;
     width: 100%;
